@@ -1,14 +1,20 @@
 import './App.css'
 
 function App() {
-  let name = "valeri"
+  const element1 = <h1>ელემენტი</h1>;
+  const element2 = <h1>{element1}</h1>;
+  const element3 = <h1>{element2}</h1>;
+  const element4 = <h1>{element3}</h1>;
 
-  console.log("123")
+
+  // console.log(element)
+
+  // let leri = "gajaviki"
+
 
   return (
     <>
-    <h1 className="">{name}</h1>
-    <h1>asdas</h1>
+    {element4}
     </>
   )
 }
